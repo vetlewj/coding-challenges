@@ -1,5 +1,5 @@
 input_list = []
-with open('input/input.txt') as f:
+with open('input/01') as f:
     for line in f:
         input_list.append(int(line.rstrip()))
 
